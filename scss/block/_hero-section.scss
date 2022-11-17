@@ -1,0 +1,82 @@
+.hero__section {
+   margin-top: 74px;
+   margin-bottom: 76px;
+}
+
+.hero__box {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.hero__title {
+   width: 546px;
+   font-family: 'DM Serif Display', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 72px;
+   color: #36536B;
+}
+
+.input__eamil {
+   padding: 16px 103px 14px 27px;
+   margin-left: 10px;
+   border: none;
+   position: relative;
+   background: #FBFCFE;
+   box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+   border-radius: 24px;
+   color: #36536B;
+}
+.submit__button {
+   padding: 15px 24px 14px 26px;
+   position: absolute;
+   left: 420px;
+   background: #BA4270;
+   color: #fff;
+   border-radius: 24px;
+   border: none;
+}
+
+.submit__button:hover {
+   background: #DA6D97;
+   box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+   border-radius: 24px;
+   cursor: pointer;
+}
+
+.form__text {
+   margin: 16px 52px;
+   font-weight: 400;
+   font-size: 15px;
+   color: #6C8294;
+}
+
+@media only screen and (max-width: 906px) {
+   .hero__box {
+      flex-direction: column-reverse;
+   }
+   
+   .hero__title {
+      text-align: center;
+      width: 327px;
+   }
+   body {
+      background-image: url("../img/bacgraund-mobile.png");
+      background-repeat: no-repeat;
+      background-position: top  right -100px;
+      background-size: 700px 400px;
+      background-color: #edf3f8;
+   }
+   
+   .submit__button {
+      padding: 16px 85px 14px 85px;
+      margin: 10px -276px;
+      display: block;
+   }
+   
+   .form__text {
+      margin-top: 72px;
+      display: block;
+   }
+}

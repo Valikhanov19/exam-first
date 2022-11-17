@@ -1,0 +1,36 @@
+.easy__section {
+   margin-bottom: 150px;
+}
+
+.easy__box {
+   display: flex;
+   align-items: center;
+}
+
+.api__title {
+   font-family: 'DM Serif Display', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 48px;
+   color: #36536B;
+}
+
+.teax__api-and-about {
+   width: 445px;
+   font-weight: 400;
+   font-size: 15px;
+   color: #6C8294;
+}
+
+@media only screen and (max-width: 1221px) {
+   .easy__box {
+      flex-direction: column;
+      align-items: center;
+   } 
+   .teax__api-and-about {
+      text-align: center;
+   }
+   .api__title {
+      margin-left: 20px;
+   }
+}

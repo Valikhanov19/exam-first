@@ -1,0 +1,73 @@
+.site__footer {
+   position: relative;
+   padding: 31px 165px 31px 164px;
+   background-color: #1B262F;
+}
+
+
+.footer__box {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.footer__head {
+   display: flex;
+   align-items: center;
+}
+
+.footer__list {
+   margin-left: 64px;
+   display: flex;
+   align-items: center;
+}
+
+
+.footer__list-item + .footer__list-item {
+   margin-left: 40px;
+}
+
+.footer__list-link {
+   font-weight: 700;
+   font-size: 15px;
+   color: #FBFCFE;
+   opacity: 0.7;
+   transition: 0.3s;
+}
+
+.footer__list-link:hover {
+   opacity: 1;
+}
+
+.about__payapi-list {
+   display: flex;
+   align-items: center;
+}
+
+.about__payapi-list-item + .about__payapi-list-item {
+   margin-left: 24px;
+}
+   
+.abut__busenes path {
+   fill: #fbfcfe;
+   transition: 0.2s;
+   cursor: pointer;
+}
+
+.abut__busenes:hover path {
+   fill: #DA6D97;
+}
+
+@media only screen and (max-width: 961px) {
+   .footer__box {
+      flex-direction: column;
+   }
+   .footer__head {
+      flex-direction: column;
+   }
+   .footer__list-item {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+   }
+}

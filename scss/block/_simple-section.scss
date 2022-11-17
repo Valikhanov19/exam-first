@@ -1,0 +1,45 @@
+.simple__section {
+   margin-bottom: 150px;
+}
+
+.simple__box {
+   display: flex;
+   align-items: center;
+}
+.simple__title {
+   font-family: 'DM Serif Display';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 48px;
+   color: #36536B;
+}
+
+.UI__and-UX {
+   width: 445px;
+   font-weight: 400;
+   font-size: 15px;
+   color: #6C8294;
+}
+
+
+
+@media only screen and (max-width: 1091px) {
+   .simple__box {
+      display: flex;
+      align-items: center;
+      flex-direction: column-reverse;
+   }
+
+   .phone__box {
+      display: flex;
+      align-items: center;
+   }
+
+   .UI__and-UX {
+      text-align: center;
+   }
+
+   .simple__title {
+      margin-left: 50px;
+   }
+}
